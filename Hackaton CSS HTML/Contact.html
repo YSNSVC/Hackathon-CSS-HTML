@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Yasin</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Oude beschavingen</h1>
+            <div class="byys">
+                YS
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="dropdown">
+                <div class="dropbtn"></div>
+                <div class="dropbtn"></div>
+                <div class="dropbtn"></div>
+                <div class="dropdown-content">
+                    <a href="index.html">Home</a>
+                    <a href="Contact.html">Contact</a>
+                    <a href="Sumeriërs.html">Sumeriërs</a>
+                    <a href="Indusbeschaving.html">Indusbeschaving</a>
+                </div>
+            </div>
+            <div id="knop"><a href="index.html">Home</a> <a href="Contact.html">Contact</a></div>
+        </div>
+
+        <!-- main -->
+        <div class="main">
+            <br>
+            <h2>
+                Contact
+            </h2>
+
+            <div class="box-1">
+                <form name="contact" method="POST" data-netlify="true">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"><br><br>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country"><br>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="other">Another country</option>
+                    </select><br><br>
+                    <label for="comment">Comment:</label><br>
+                    <textarea rows="4" cols="50">Your comment</textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+        <!-- main -->
+
+        <div class="footer">
+            Yasin - Hackathon: make your own website using HTML/CSS
+        </div>
+    </div>
+
+</body>
+
+</html>
